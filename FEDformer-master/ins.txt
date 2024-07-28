@@ -1,0 +1,20 @@
+python -u run.py --model FEDformer --data GPS --features MS --freq t
+python -u run.py --model FEDformer --data ETTh1  --features MS --freq h
+python -u run.py --model FEDformer --data GPS --features S --seq_len 144 --label_len 72 --freq t --e_layers 8 --d_layers 2
+python -u run.py --model FEDformer --data ETTh1 --freq h --seq_len 144 --label_len 72 --e_layers 8 --d_layers 8
+python -u run.py --model FEDformer --data ECAP --features S --freq h
+python -u run.py --model FEDformer --data Tomato --features S --freq d
+python -u run.py --model FEDformer --data Server --features S --seq_len 16 --label_len 8 --pred_len 4 --freq t
+
+
+python -u run.py --model FEDformer --data Server --features MS --seq_len 32 --label_len 16 --pred_len 4 --freq s --e_layers 4 --d_layers 2
+python -u run.py --model FEDformer --data User0 --features MS --seq_len 32 --label_len 16 --pred_len 4 --freq s --e_layers 4 --d_layers 2
+
+
+python -u run.py --model FEDformer --data Server --features MS --seq_len 32 --label_len 16 --pred_len 4 --freq s
+python -u run.py --model FEDformer --data User0 --features MS --seq_len 32 --label_len 16 --pred_len 4 --freq s
+
+
+python -u run.py --model FEDformer --data Server --features MS --seq_len 32 --label_len 16 --pred_len 32 --freq s
+
+python -u run.py --model LSTM --data Server --features MS --seq_len 32 --label_len 16 --pred_len 32 --freq s

@@ -1,0 +1,42 @@
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type noniid
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type noniid
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type noniid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type noniid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type noniid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type noniid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type noniid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type noniid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type noniid
+
+
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type iid
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type iid
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type iid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type iid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type iid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type iid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type iid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type iid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type iid
+
+
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset mnist --split_type noniid
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset mnist --split_type noniid
+python main.py --selection GCE --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset mnist --split_type noniid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset mnist --split_type noniid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset mnist --split_type noniid
+python main.py --selection KDP --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset mnist --split_type noniid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 1 --dataset mnist --split_type noniid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 2 --dataset mnist --split_type noniid
+python main.py --selection PDG --model wideResnet --clients 50 --rounds 192 --epochs 4 --dataset mnist --split_type noniid
+
+
+python main.py --selection GCE --model vgg19 --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type noniid
+python main.py --selection GCE --model vgg19 --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type noniid
+python main.py --selection GCE --model vgg19 --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type noniid
+python main.py --selection KDP --model vgg19 --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type noniid
+python main.py --selection KDP --model vgg19 --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type noniid
+python main.py --selection KDP --model vgg19 --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type noniid
+python main.py --selection PDG --model vgg19 --clients 50 --rounds 192 --epochs 1 --dataset cifar10 --split_type noniid
+python main.py --selection PDG --model vgg19 --clients 50 --rounds 192 --epochs 2 --dataset cifar10 --split_type noniid
+python main.py --selection PDG --model vgg19 --clients 50 --rounds 192 --epochs 4 --dataset cifar10 --split_type noniid
